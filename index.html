@@ -6,14 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <title>Bootstrap</title>
+  <title>colorful grids</title>
 </head>
 <body>
-<h1>Headline</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero, cupiditate veniam officiis itaque in porro iure fugit iusto reprehenderit commodi earum cum blanditiis quos error similique quod, facere! Hic.</p>
-  
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<h1>Color the Grids!</h1>
+<div class="colorPanel">
+    <h2>Color Panel</h2>
+    <button class="btn btn-danger" id="reset">Reset</button>
+    <button class="btn btn-info" id="black">Black and White</button>
+    <button class="btn btn-primary" id="colorful">Colorful</button>
+    <p class="or">or</p>
+    <div>
+    <input id="setNum" placeholder=" 89cdef">
+    <button id="setColor" class="btn btn-warning">Set My Own Color</button></div>
+    <p class="expl">Put <b>6</b> numbers or letters <br><b>choosing from 1-9 & A-F.</b><br><br> eg: 979797 is light gray; <br>9bcdef is blueish.</p>
+    <p class="or">or</p>
+    <button id="lucky" class="btn btn-info">I'm feeling lucky today!</button>
+</div>
+    
+<div class="settingPanel">
+    <h2>Setting Panel</h2>
+    <div>
+    <h3>Canvas Size</h3>
+    <input id="canvasSize" placeholder=" 10">
+    <div class="sizeBtn">
+    <button id="sizeSub" class="btn btn-primary">Submit</button>
+    <button id="sizeDef" class="btn btn-danger">Default Size</button>
+    </div>
+    <p class="expl">How many squares do you want on each line?<br>(Please choose between 1 and 60)</p>
+    </div>
+    <button id="dbl" class="btn btn-info">Double click to Pause the Pen</button>
+    <button class="btn btn-default" id="darker">10% darker mode</button>
+    
+    <button class="btn btn-warning" id="boom">Boom!</button>
+</div>
+<div>
+<table class="gwraps">
+    
+    </table>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
+

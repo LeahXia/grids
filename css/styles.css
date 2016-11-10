@@ -46,3 +46,117 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+/* My Own Code*/
+
+h1{
+    text-align: center;
+    font-size:45px;
+    margin: 45px auto 30px;
+    color:#8f8f8f;
+}
+h2{
+    font-size:25px;
+    color:#fff;
+    background:#abcdef;
+    padding:10px;
+    text-align:center;
+    margin-bottom:10px;
+
+}
+h3{
+    text-align: center;
+    font-size:23px;
+    margin: 25px auto 5px;
+    color:#2f2f2f;
+}
+
+.settingPanel{
+    width:300px;
+    height:600px;
+    margin-left:50px;
+    float:left;
+    border:1px dotted #abcdef;
+    
+}
+
+
+.sizeBtn button{
+    margin:0px;
+    padding:5px;
+    width:110px;
+    height:30px;
+    display:inline-block;
+    font-size:14px;
+}
+#canvasSize{
+    margin:20px auto 10px;
+    width:230px;
+    height:30px;
+}
+#dbl{
+    width:228px;
+    margin:20px auto;
+}
+
+
+.colorPanel{
+    width:300px;
+    height:600px;
+    margin-right:50px;
+    float:right;
+    border:1px dotted #abcdef;
+    
+}
+
+.btn{
+    width:197px;
+    height:40px;
+    margin:20px 42px 10px;
+    font-size:16px;
+    font-weight: bold;
+}
+.or{
+    text-align:center;
+    font-size:22px;
+    font-weight:normal;
+}
+div{
+    text-align:center;
+}
+.expl{
+    text-align:center;
+    font-size:16px;
+    color:#797979;
+    padding:5px;
+    margin:5px;
+}
+#setColor{
+    width:190px;
+    height:35px;
+    margin:0px auto 10px;
+    text-align:middle;
+    display:inline-block;
+}
+#setNum{
+    width:190px;
+    height:35px;
+    margin:10px auto 5px;
+    display:inline-block;
+}
+
+.gwraps{
+    width:600px;
+    height:600px;
+    background:#f0f0f0;
+    margin:0px auto;
+    padding:0px;
+}
+
+
+.col{
+    background:#000;
+    
+}
